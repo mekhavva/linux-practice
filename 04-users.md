@@ -38,7 +38,7 @@ whoami
 
 ### Output
 
-
+``` havva```
 
 ### Notes
 
@@ -61,8 +61,9 @@ id
 id
 
 ### Output
+``` uid=1000(havva) gid=1000(havva) groups=1000(havva),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),111(lpadmin),114(lxd)
 
-
+```
 
 ### Notes
 
@@ -86,7 +87,7 @@ who
 
 ### Output
 
-
+``` no output```
 
 ---
 
@@ -105,7 +106,8 @@ groups
 groups
 
 ### Output
-
+```havva adm cdrom sudo dip plugdev users lpadmin lxd
+```
 
 
 ---
@@ -125,7 +127,9 @@ sudo -l
 sudo -l
 
 ### Output
-
+``` User havva may run the following commands on havva-VirtualBox:
+    (ALL : ALL) ALL
+```
 
 
 ---
